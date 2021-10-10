@@ -32,6 +32,78 @@
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="index.css" />
 </head>
+<!-- SHAKE
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+</head>
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .zoom {
+
+
+    transition: transform .2s ease-in;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+  }
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .zoom2 {
+
+
+    transition: transform .2s ease-in;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .zoom2:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+  }
+</style>
+</head>
 
 <body>
 
@@ -60,16 +132,16 @@
           <span>Navkaran Singh</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-      
+
         <p style="color:rgb(255, 137, 156);""> I love exploring new things ! </p>
 
         <p>
           I'm an India based analyst with a goal-driven creative mindset and passion for learning and innovating 
           along with interest in exploring concepts of Artificial intelligence and Dapp .</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <a href=" #contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
-  </header> 
+  </header>
 
   <main role="main">
 
@@ -86,23 +158,31 @@
             <div class="work__text">
               <h3>Handwritten Digits Recognition </h3>
               <p>
-               Made at ML model to identify the handwritten digits through various classification algorithms using MNIST dataset where GUI was made with OpenCV.
+                Made at ML model to identify the handwritten digits through various classification algorithms using
+                MNIST dataset where GUI was made with OpenCV.
               </p>
-              <ul class="work__list">     
+              <ul class="work__list">
                 <li> Python</li>
                 <li>Tensorflow</li>
                 <li> Numpy</li>
                 <li> Sklearn </li>
                 <li> Keras</li>
-                <li> Pandas  </li>
+                <li> Pandas </li>
                 <li> Matplotlib </li>
                 <li> OpenCV </li>
               </ul>
+              <div class="work__links">
+
+                <a href="https://github.com/navkarancodes/Handwritten_digit_recognition_CNN">
+                  <img src="./images/github.svg" class="work__code " title="View Source Code" alt="GitHub">
+                </a>
+              </div>
 
 
             </div>
+
             <div class="work__image-box">
-              <img src="./images/ml_model.png" class="work__image" alt="Project 1" />
+              <img src="./images/ml_model.png" class="work__image zoom" alt="Project 1" />
             </div>
           </div>
 
@@ -112,49 +192,48 @@
               <p>
                 The user will input a valid URL and click a "shorten" button. The shortened URL will then be displayed.
               </p>
-              <ul class="work__list">  
+              <ul class="work__list">
                 <li> HTML</li>
                 <li> CSS</li>
                 <li> JavaScript</li>
-                
+
               </ul>
 
               <div class="work__links">
 
-                <a href="#">
-                  <img src="./images/black.jpg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/navkarancodes/Link_shortening">
+                  <img src="./images/github.svg" class="work__code " title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/html_css_js.png" class="work__image" alt="Project 1" />
+              <img src="./images/lsw.png" class="work__image zoom2" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Physiological Effects Analyzer</h3>
+              <h3>College Counselling Admission</h3>
               <p>
-              Built a website for analyzing Covaxin Post-Effects on Human Body.
+                Made a addmission counselling system that assists in managing payments , registrations, collegeranking &
+                various other interrelated modules which is platform independent
               </p>
-              <ul class="work__list">   
-                <li> Python</li>
-                <li> Javascript</li>
-                <li> HTML</li>
-                <li> CSS</li>
+              <ul class="work__list">
+
+                <li> Java</li>
+                <li> MySQL</li>
+                <li> Netbeans</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                   <span></span>
-                </a>
-                <a href="#">
-                  <img src="./images/black.jpg" class="work__code" title="View Source Code" alt="GitHub">
+            
+                <a href="https://github.com/navkarancodes/admission_system">
+                  <img src="./images/github.svg" class="work__code " title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/meter.png" class="work__image" alt="Project 3" />
+              <img src="./images/result_.png" class="work__image zoom2" alt="Project 3" />
             </div>
           </div>
         </div>
@@ -168,55 +247,58 @@
         <h2>Languages and Tools:</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-         
+
           <a href="https://chatterbot.readthedocs.io/">
-          <img src="./images/CHATTERBOT.png" class="client__logo" alt="Company 3" /> </a>
+            <img src="./images/CHATTERBOT.png" class="client__logo" alt="Company 3" /> </a>
           <a href="https://www.w3schools.com/css/">
-          <img src="./images/css.png" class="client__logo" alt="Company 1" /> </a>
+            <img src="./images/css.png" class="client__logo" alt="Company 1" /> </a>
           <a href="https://realpython.com/tutorials/flask/">
-                      <img src="./images/Flask.png" class="client__logo" alt="Company 1" /></a>
-                      <a href="https://genpipes.readthedocs.io/">
-                      <img src="./images/GENPIPES.png" class="client__logo" alt="Company 3" /></a>
-                      <a href="https://html.com/">
-                      <img src="./images/html.png" class="client__logo" alt="Company 3" /></a>
-                      <a href=" https://www.java.com/ ">
-                      <img src="./images/java.png" class="client__logo" alt="Company 3" /></a>
-                      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-                      <img src="./images/js.png" class="client__logo" alt="Company 1" /></a>
-                      <a href="https://www.mysql.com/">
-                        <img src="./images/mysql.png" class="client__logo" alt="Company 1" /></a>
-                      <a href="https://www.latex-project.org/">
-                      <img src="./images/lAtEx.png" class="client__logo" alt="Company 3" /></a>
+            <img src="./images/Flask.png" class="client__logo" alt="Company 1" /></a>
+          <a href="https://genpipes.readthedocs.io/">
+            <img src="./images/GENPIPES.png" class="client__logo" alt="Company 3" /></a>
+          <a href="https://html.com/">
+            <img src="./images/html.png" class="client__logo" alt="Company 3" /></a>
+          <a href=" https://www.java.com/ ">
+            <img src="./images/java.png" class="client__logo" alt="Company 3" /></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <img src="./images/js.png" class="client__logo" alt="Company 1" /></a>
+          <a href="https://www.mysql.com/">
+            <img src="./images/mysql.png" class="client__logo" alt="Company 1" /></a>
+          <a href="https://www.latex-project.org/">
+            <img src="./images/lAtEx.png" class="client__logo" alt="Company 3" /></a>
 
-                      <a href="https://www.learncpp.com/">
-                        <img src="./images/c++.png" class="client__logo" alt="Company 1" /></a>
+          <a href="https://www.learncpp.com/">
+            <img src="./images/c++.png" class="client__logo" alt="Company 1" /></a>
 
-                      <a href="https://www.linux.org/">
-                      <img src="./images/linux.png" class="client__logo" alt="Company 3" /></a>
-                      
-                      <a href="https://matplotlib.org/">
-                      <img src="./images/MATPLOT.png" class="client__logo" alt="Company 3" /></a>
-                      
+          <a href="https://www.linux.org/">
+            <img src="./images/linux.png" class="client__logo" alt="Company 3" /></a>
 
-                      <a href="https://keras.io/">
-                        <img src="./images/KERAS.png" class="client__logo" alt="Company 1" /></a>
-                        
+          <a href="https://matplotlib.org/">
+            <img src="./images/MATPLOT.png" class="client__logo" alt="Company 3" /></a>
 
-                   
-                      
-                      <a href="https://numpy.org/">
-                      <img src="./images/numPY.png" class="client__logo" alt="Company 3" /></a>
-                      <a href="https://opencv.org/">
-                      <img src="./images/OPENCV.png" class="client__logo" alt="Company 3" /></a>
-                      <a href="https://www.w3schools.com/python/pandas/default.asp">
-                      <img src="./images/pandas.png" class="client__logo" alt="Company 3" /> </a>
-          
-                      <a href="https://www.raspberrypi.org/software/">            <img src="./images/pi.png" class="client__logo" alt="Company 3" /></a>
-                        <a href="https://scikit-learn.org/stable/">          <img src="./images/scikit.png" class="client__logo" alt="Company 3" /></a>
-                          <a href="https://www.tensorflow.org/"> <img src="./images/tensor.png" class="client__logo" alt="Company 3" /></a>
-                            <a href="https://vuejs.org/"> <img src="./images/VUEJS.png" class="client__logo" alt="Company 3" /></a>
+
+          <a href="https://keras.io/">
+            <img src="./images/KERAS.png" class="client__logo" alt="Company 1" /></a>
+
+
+
+
+          <a href="https://numpy.org/">
+            <img src="./images/numPY.png" class="client__logo" alt="Company 3" /></a>
+          <a href="https://opencv.org/">
+            <img src="./images/OPENCV.png" class="client__logo" alt="Company 3" /></a>
+          <a href="https://www.w3schools.com/python/pandas/default.asp">
+            <img src="./images/pandas.png" class="client__logo" alt="Company 3" /> </a>
+
+          <a href="https://www.raspberrypi.org/software/"> <img src="./images/pi.png" class="client__logo"
+              alt="Company 3" /></a>
+          <a href="https://scikit-learn.org/stable/"> <img src="./images/scikit.png" class="client__logo"
+              alt="Company 3" /></a>
+          <a href="https://www.tensorflow.org/"> <img src="./images/tensor.png" class="client__logo"
+              alt="Company 3" /></a>
+          <a href="https://vuejs.org/"> <img src="./images/VUEJS.png" class="client__logo" alt="Company 3" /></a>
           <a href="https://www.python.org/">
-          <img src="./images/py.jpg" class="client__logo" alt="Company 3" />
+            <img src="./images/py.jpg" class="client__logo" alt="Company 3" />
           </a>
         </div>
       </div>
@@ -232,8 +314,8 @@
             <!-- Replace the below paragraph with info about yourself -->
             I’m especially interested in studying Applied AI, Pattern Recognition, Programming & Compiler Design.
             <p>
-                         
-              
+
+
             </p>
             <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
@@ -255,10 +337,13 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-Hoping to hear back from your esteemed university 
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:navkaran.code@gmail.com" class="btn">Waiting to prove myself !! </a>
+          I eagerly look forward for this opportunity to study in your esteemed university.
+
+
+
+
+          <!-- Replace the email with yours -->
+          <a href="mailto:navkaran.code@gmail.com" class="btn">Waiting to prove myself !! </a>
       </div>
     </div>
   </section>
@@ -269,36 +354,29 @@ Hoping to hear back from your esteemed university
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
+
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/navkarancodes" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
+
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          <a href="https://www.linkedin.com/in/navkaran-singh-a27146197">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+              alt="Linkedin">
           </a>
         </li>
       </ul>
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-  
+
 
     </div>
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
   <script src="./index.js"></script>
 </body>
